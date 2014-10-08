@@ -98,4 +98,8 @@ img {
 footer {
     background-color: #e2e2e2;
 }
+
+.copyright {
+    overflow:hidden;
+}
     
