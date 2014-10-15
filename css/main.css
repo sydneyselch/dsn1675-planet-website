@@ -96,10 +96,37 @@ img {
 }
 
 footer {
+    background-color: #ccc;
+}
+
+
+@media only screen and (min-width:60em) {
+    
+    html {
+        font-size:110%;
+    }
+}
+
+@media only screen and (min-width:90em) {
+    
+    html {
+        font-size:120%;
+    }
+}
+
+@media only screen and (min-width:120em) {
+    
+    html {
+        font-size:130%;
+    }
+}
+
+.midgray{
     background-color: #e2e2e2;
 }
 
-.copyright {
-    overflow:hidden;
+.lightgray{
+    background-color: #efefef;
+    overflow: hidden;
 }
     
