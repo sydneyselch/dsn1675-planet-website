@@ -11,7 +11,7 @@
     
 <body>  
     
-    <header class="top">
+    <header role="banner"class="top">
         
      <h1 class="title push-none">Mars</h1>
         
@@ -22,7 +22,7 @@
         </ul>
     </header>
     
-    <article>
+    <main role="main">
 
         <div class="greybar">
         <div class="firstpara peta island-half">Mars, the third planet in the Solar System.</div>
@@ -31,20 +31,16 @@
           <div class="grid">
               
               <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">
-              <img src="images/mars.jpg" alt="mars">   
-            </div>
-        
-        <div class="island">      
-        <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2">      
-        <h2 class="yotta">Mars</h2>
-              
-         <p>Mars is the fourth planet from the Sun and the second smallest planet in the Solar System, after Mercury. Mars is a terrestrial planet with a thin atmosphere, having surface features reminiscent both of the impact craters of the Moon and the volcanoes, valleys, deserts, and polar ice caps of Earth. 
-            </p>
-        </div>
-         </div>
+                  <img src="images/mars.jpg" alt="mars">   
               </div>
-        
-    
+               
+                <div class="unit unit-xs-1 unit-s-1 unit-m-1-2 unit-l-1-2 island">      
+                    <h2 class="yotta">Mars</h2>
+                    <p>Mars is the fourth planet from the Sun and the second smallest planet in the Solar System, after Mercury. Mars is a terrestrial planet with a thin atmosphere, having surface features reminiscent both of the impact craters of the Moon and the volcanoes, valleys, deserts, and polar ice caps of Earth. 
+                    </p>
+                </div>
+            </div>
+       
     <div class="lightgray">
         <div class="grid">
             
@@ -118,10 +114,11 @@
 
     
      <footer>
+         
             <div class="grid gutter-half">
         
                         <div class="unit unit-m-1-2">
-                            <p class="pad-top-half push-none milli">©2014 Mars Planetary Consoritium</p>
+                            <p role= "contentinfo" class="pad-top-half push-none milli">©2014 Mars Planetary Consoritium</p>
                         </div>
                    
                  
@@ -131,12 +128,12 @@
                                 <li class="giga pad-bottom-half milli"><a href="moons.html">Moons</a></li>
                                 <li class="giga pad-bottom-half milli"><a href="exploration.html">Exploration</a></li>
                             </ul>
-                        </div>
-                            
+                        </div>                   
                 </div> 
+         
         </footer>
     
         
-    </article>
+    </main>
 </body>
 </html>
