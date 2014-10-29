@@ -89,21 +89,81 @@ img {
 .greybar{
     background-color:#e2e2e2;
     margin-bottom: 1em;
+    overflow: hidden;
 }
 
 .firstpara {
     text-align: center;
+    overflow: hidden;
 }
 
 .titlebar {
     text-align: center;
     font-size: 4rem;
     font-style: bold;
+    overflow: hidden;
 }
 
+.midgray{
+    background-color: #e2e2e2;
+    overflow: hidden;
+}
+
+.lightgray{
+    background-color: #efefef;
+    overflow: hidden;
+}
+    
 footer {
     background-color: #ccc;
 }
+
+.centeralign {
+    text-align: center;
+}
+
+label{
+    display: block;
+}
+    
+input + label {
+    display:inline-block;
+}
+
+input[type="name"],
+input[type="email"],
+input[type="number"] {
+    width:100%;
+    padding: .5rem;
+    border: 1px solid #ccc; 
+}
+
+textarea {
+    width:100%;
+    padding:2rem;
+    border: 1px solid #ccc;
+}
+
+button{
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #efefef;
+    font-size: 1.5rem;
+}
+
+.button {
+    text-align: center;
+}
+
+.radio {
+    white-space: nowrap;
+}
+
+
+    
+
+
+
 
 
 @media only screen and (min-width:60em) {
@@ -126,13 +186,3 @@ footer {
         font-size:130%;
     }
 }
-
-.midgray{
-    background-color: #e2e2e2;
-}
-
-.lightgray{
-    background-color: #efefef;
-    overflow: hidden;
-}
-    

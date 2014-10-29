@@ -2,34 +2,104 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Exploration</title>
+  <title>Mars</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/typography.css" rel="stylesheet">
 </head>
     
 <body>  
     
-    <header role="banner" class="top">
+    <header role="banner"class="top">
         
-        <h1 class="title push-none">Mars
-        </h1>
+     <h1 class="title push-none">Mars</h1>
         
-            <ul role="nav" class="nav">
-                <li class="giga gutter pad-bottom"><a href="index.html">Planet</a></li>
-                <li class="giga gutter pad-bottom"><a href="moons.html">Moons</a></li>
-                <li class="giga gutter"><a href="exploration.html">Exploration</a></li>
-            </ul>
+        <ul class="nav">
+            <li class="giga gutter pad-bottom"><a href="index.html">Planet</a></li>
+            <li class="giga gutter pad-bottom"><a href="moons.html">Moons</a></li>
+            <li class="giga gutter"><a href="exploration.html">Exploration</a></li>
+        </ul>
     </header>
     
-    <main>
-    
-       <div class="greybar">
-            <div class="titlebar zetta island-half ">
-                <h2 class="milli">Exploration</h2>
+    <main role="main">
+        <div class="greybar">
+            <div class="titlebar peta island-half">
+                <h2>Exploration</h2>
             </div>
         </div>
+        
+<div class="midgray island">
+    <h2 class="centeralign">Join Mars's Exploration Team</h2>
+        <p class="centeralign">Are you interested in exploring Mars with a group of extremely talented people? <i>Sign up below!</i></p>
+        
+<form action="thanks.html" method="post">
+        
+     <div class="pad-bottom-half">
+        <label for="name" >Name</label>
+        <input type="name" id="name" >
+    </div>
+        
+    <div class="pad-bottom-half">
+        <label for="email">Email</label>
+        <input type="email" id="email">
+    </div>
+            
+     <div class="pad-bottom-half">
+        <label for="number">Age</label>
+        <input type="number" id="number">
+    </div>
+            
+         <div class="pad-bottom-half">
+             
+             <p class="push-none"><i>Your level of awesomeness:</i></p>
+              <span class="radio">
+                <input type="radio" id="ok" name="level-of-awesomeness">
+                <label for="meh">Meh</label>
+                  </span>
+             
+                <span class="radio">
+                <input type="radio" id="ok" name="level-of-awesomeness">
+                <label for="pretty good">Pretty Good</label>
+                </span>
+                    
+             <span class="radio">
+                <input type="radio" id="ok" name="level-of-awesomeness">
+                <label for="amaze">Amaze-Balls</label>
+             </span>
+         </div>
+            
+            <div>
+            <label for="stuff">Explain why you deserve to go:</label>
+            <textarea id="stuff"></textarea>
+        </div>
     
-    </main>
+        <div class="button pad-top">
+            <button type="submit">Sign up!</button>
+        </div>
+    
+    
+    
+    
+    </form>
+    
+    
+</div>
+        
+        
+       
+    
+    
+    
+        
+        
+        
+        
+        
+        
+        
+        
+        
 </body>
       
     
