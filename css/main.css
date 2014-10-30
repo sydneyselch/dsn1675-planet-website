@@ -159,13 +159,18 @@ button{
     white-space: nowrap;
 }
 
+button:hover {
+    background-color: pink;
+    cursor: pointer;
+    color: black;
+}
 
+button:active {
+    background-color: red;
+}
+
+a
     
-
-
-
-
-
 @media only screen and (min-width:60em) {
     
     html {
