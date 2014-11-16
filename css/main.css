@@ -41,7 +41,7 @@ img {
 .top {
     margin:0;
     padding:0;
-    background-color: #ccc;
+    background-color: #086A87;
     overflow: hidden;
 }
 
@@ -52,6 +52,7 @@ img {
 
 .nav li{
     list-style-type: none;
+    color: grey;
 }
 
 .nav a,
@@ -65,15 +66,14 @@ img {
 .nav a:hover,
 .nav a:focus,
 .nav a:active {
-    background-color: pink;
+    background-color: grey;
     overflow: hidden;
 }
 
 .nav-current {
-    background-color: red;
+    background-color: white;
     overflow: hidden;
 }
-    
 
 @media only screen and (min-width:20em) {
  
@@ -131,7 +131,18 @@ img {
 }
     
 footer {
-    background-color: #ccc;
+    background-color:#086A87;
+    color: white;
+}
+
+footer:a,{
+    color: white;
+    
+}
+
+u,{
+    color: white;
+    
 }
 
 .centeralign {
