@@ -75,32 +75,7 @@ img {
     overflow: hidden;
 }
 
-@media only screen and (min-width:20em) {
- 
-    .nav li {
-        display:inline-block;
-    }
-    
-    .nav {
-        text-align: center;
-    }
-    
-}
-    
-@media only screen and (min-width:40em) {
- 
-        .title {
-            float:left;
-        }
-    
-    .nav{
-        float:left;
-        position: relative;
-        top:1rem;
-    }
 
-    
-}
 
 .greybar{
     background-color:#e2e2e2;
@@ -196,7 +171,32 @@ button:active {
     background-color: red;
 }
 
-a
+@media only screen and (min-width:20em) {
+ 
+    .nav li {
+        display:inline-block;
+    }
+    
+    .nav {
+        text-align: center;
+    }
+    
+}
+    
+@media only screen and (min-width:40em) {
+ 
+        .title {
+            float:left;
+        }
+    
+    .nav{
+        float:left;
+        position: relative;
+        top:1rem;
+    }
+
+    
+}
     
 @media only screen and (min-width:60em) {
     
